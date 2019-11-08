@@ -1,6 +1,6 @@
 Machine-Translation
 ===========================
-some projects for chatbots 
+some projects for translation and generation 
 
 ****
 	
