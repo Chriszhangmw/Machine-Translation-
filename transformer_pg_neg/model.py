@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-#/usr/bin/python3
-'''
-date: 2019/5/21
-mail: cally.maxiong@gmail.com
-page: http://www.cnblogs.com/callyblog/
-'''
+
 import logging
 import tensorflow as tf
 from tqdm import tqdm
@@ -224,16 +218,16 @@ class Transformer:
             #
             # print('@'*40)
             # print('attn_dists 乘以之前的维度：', attn_dists.get_shape())
-            # if self.train_mode == 'train':
-            #
-            #     negative_weights = tf.matrix_diag(frequency)
-            #     attn_dists = tf.expand_dims(attn_dists, axis=-1)
-            #     attn_dists = tf.reshape(attn_dists,[-1,50,1,400])
-            #     # print('negative_weights shape is ',negative_weights.get_shape())
-            #     negative_weights = tf.reshape(negative_weights,[-1,1,400,400])
-            #     attn_dists = tf.multiply(attn_dists, negative_weights)
-            #     attn_dists = tf.matrix_diag_part(attn_dists)
-            # print('attn_dists 乘以之后的维度：',attn_dists.get_shape())
+            if self.train_mode == 'train':
+
+                negative_weights = tf.matrix_diag(frequency)
+                attn_dists = tf.expand_dims(attn_dists, axis=-1)
+                attn_dists = tf.reshape(attn_dists,[-1,50,1,400])
+                # print('negative_weights shape is ',negative_weights.get_shape())
+                negative_weights = tf.reshape(negative_weights,[-1,1,400,400])
+                attn_dists = tf.multiply(attn_dists, negative_weights)
+                attn_dists = tf.matrix_diag_part(attn_dists)
+            print('attn_dists 乘以之后的维度：',attn_dists.get_shape())
             # print('@' * 40).linalg.diag
 
 
