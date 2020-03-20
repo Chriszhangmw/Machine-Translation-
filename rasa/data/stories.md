@@ -1,0 +1,59 @@
+## story_01
+* greet
+    - utter_greet
+* inform
+    - utter_ask_location
+* inform[location=Beijing]
+    - slot{"location":"Beijing"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+
+## story_02
+* greet
+    - utter_greet
+* inform
+    - utter_ask_location
+* goodbye
+    - utter_goodbye
+## story_03
+* greet
+    - utter_greet
+* inform
+    - utter_ask_location
+* inform[location=Shanghai]
+    - slot{"location":"Shanghai"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+## story_04
+* greet
+    - utter_greet
+* inform
+    - utter_ask_location
+* inform[location=Chengdu]
+    - slot{"location":"Chengdu"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+## story_05
+* greet
+    - utter_greet
+* inform
+    - utter_ask_location
+* goodbye
+    - utter_goodbye
+## story_06
+* greet
+    - utter_greet
+* inform
+    - utter_ask_location
+* goodbye
+    - utter_goodbye
+## story_07
+* greet
+    - utter_greet
+* inform
+    - utter_ask_location
+* goodbye
+    - utter_goodbye
