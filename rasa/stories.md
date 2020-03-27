@@ -1,6 +1,10 @@
-## Generated Story 7919443127833814006
+## Generated Story 6953551267482630893
 * greet
     - utter_greet
 * inform
-* inform
+    - utter_ask_location
+* inform{"location": "italy"}
+    - slot{"location": "italy"}
+    - action_weather
+    - slot{"location": "italy"}
     - export
