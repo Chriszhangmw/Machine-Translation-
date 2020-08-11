@@ -12,16 +12,24 @@
         "entities": []
       },
       {
-        "text": "What's the weather in Berlin at the moment?",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 22,
-            "end": 28,
-            "value": "Berlin",
-            "entity": "location"
-          }
-        ]
+        "text": "What's the weather?",
+        "intent": "request_weather",
+        "entities": []
+      },
+      {
+        "text": "What's the weather?",
+        "intent": "request_weather",
+        "entities": []
+      },
+      {
+        "text": "tell me the weather",
+        "intent": "request_weather",
+        "entities": []
+      },
+      {
+        "text": "tell me the weather?",
+        "intent": "request_weather",
+        "entities": []
       },
       {
         "text": "hey",
@@ -79,160 +87,158 @@
         "entities": []
       },
       {
-        "text": "What's the weather today?",
-        "intent": "inform",
-        "entities": []
-      },
-      {
-        "text": "What's the weather in London today?",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 22,
-            "end": 28,
-            "value": "London",
-            "entity": "location"
-          }
-        ]
-      },
-      {
-        "text": "Show me what's the weather in Paris",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 30,
-            "end": 35,
-            "value": "Paris",
-            "entity": "location"
-          }
-        ]
-      },
-      {
-        "text": "I wonder what is the weather in Vilnius right now?",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 32,
-            "end": 39,
-            "value": "Vilnius",
-            "entity": "location"
-          }
-        ]
-      },
-      {
-        "text": "what is the weather?",
-        "intent": "inform",
-        "entities": []
-      },
-      {
-        "text": "Tell me the weather",
-        "intent": "inform",
-        "entities": []
-      },
-      {
-        "text": "Is the weather nice in Barcelona today?",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 23,
-            "end": 32,
-            "value": "Barcelona",
-            "entity": "location"
-          }
-        ]
-      },
-      {
-        "text": "I am going to London today and I wonder what is the weather out there?",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 14,
-            "end": 20,
-            "value": "London",
-            "entity": "location"
-          }
-        ]
-      },
-      {
-        "text": "I am planning my trip to Amsterdam. What is the weather out there?",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 25,
-            "end": 34,
-            "value": "Amsterdam",
-            "entity": "location"
-          }
-        ]
-      },
-      {
-        "text": "Show me the weather in Dublin, please",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 23,
-            "end": 29,
-            "value": "Dublin",
-            "entity": "location"
-          }
-        ]
-      },
-      {
-        "text": "in London",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 3,
-            "end": 9,
-            "value": "London",
-            "entity": "location"
-          }
-        ]
-      },
-      {
-        "text": "Lithuania",
+        "text": "tomorrow",
         "intent": "inform",
         "entities": [
           {
             "start": 0,
-            "end": 9,
-            "value": "Lithuania",
+            "end": 8,
+            "value": "today",
+            "entity": "date_time"
+          }
+        ]
+      },
+      {
+        "text": "tomorrow",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "today",
+            "entity": "date_time"
+          }
+        ]
+      },
+      {
+        "text": "tomorrow",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "today",
+            "entity": "date_time"
+          }
+        ]
+      },
+     {
+        "text": "tomorrow",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "today",
+            "entity": "date_time"
+          }
+        ]
+      },
+      {
+        "text": "today",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "today",
+            "entity": "date_time"
+          }
+        ]
+      },
+      {
+        "text": "today",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "today",
+            "entity": "date_time"
+          }
+        ]
+      },
+      {
+        "text": "today",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "today",
+            "entity": "date_time"
+          }
+        ]
+      },
+      {
+        "text": "Show me the weather",
+        "intent": "request_weather",
+        "entities": []
+      },
+      {
+        "text": "I wonder what is the weather",
+        "intent": "request_weather",
+        "entities": []
+      },
+      {
+        "text": "what is the weather?",
+        "intent": "request_weather",
+        "entities": []
+      },
+      {
+        "text": "what is the weather?",
+        "intent": "request_weather",
+        "entities": []
+      },
+      {
+        "text": "Tell me the weather",
+        "intent": "request_weather",
+        "entities": []
+      },
+      {
+        "text": "Shanghai",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Shanghai",
             "entity": "location"
           }
         ]
       },
       {
-        "text": "Oh, sorry, in Italy",
+        "text": "Shanghai",
         "intent": "inform",
         "entities": [
           {
-            "start": 14,
-            "end": 19,
-            "value": "Italy",
+            "start": 0,
+            "end": 8,
+            "value": "Shanghai",
             "entity": "location"
           }
         ]
       },
       {
-        "text": "Tell me the weather in Vilnius",
+        "text": "Beijing",
         "intent": "inform",
         "entities": [
           {
-            "start": 23,
-            "end": 30,
-            "value": "Vilnius",
+            "start": 0,
+            "end": 7,
+            "value": "Beijing",
             "entity": "location"
           }
         ]
       },
       {
-        "text": "The weather condition in Italy",
+        "text": "Beijing",
         "intent": "inform",
         "entities": [
           {
-            "start": 25,
-            "end": 30,
-            "value": "Italy",
+            "start": 0,
+            "end": 7,
+            "value": "Beijing",
             "entity": "location"
           }
         ]

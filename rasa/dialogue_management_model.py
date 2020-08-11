@@ -37,9 +37,8 @@ def run_weather_bot(serve_forever=True):
 	
 	if serve_forever:
 		agent.handle_channel(ConsoleInputChannel())
-		
 	return agent
-	
+
 if __name__ == '__main__':
 	train_dialogue()
 	run_weather_bot()

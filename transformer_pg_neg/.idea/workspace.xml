@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="406e36f1-84e4-490b-affd-7bccc6169c82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Project_1_kaikeba-tf2.0/.idea/Project_1_kaikeba-tf2.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../transformer_pg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../transformer_pg/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -26,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../transformer_pg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -202,6 +204,8 @@
       <workItem from="1574451056561" duration="4754000" />
       <workItem from="1574504746238" duration="1851000" />
       <workItem from="1583075191915" duration="5861000" />
+      <workItem from="1590315311958" duration="3237000" />
+      <workItem from="1590368370525" duration="60000" />
     </task>
     <task id="LOCAL-00001" summary="add some comments">
       <created>1583078764632</created>
@@ -221,7 +225,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

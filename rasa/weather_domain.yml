@@ -1,13 +1,20 @@
 slots:
   location:
     type: text
+  date_time:
+    type: text
 
 intents:
  - greet
  - goodbye
  - inform
+ - request_weather
 entities:
  - location
+ - date_time
+
+forms:
+  - weather_form
 
 templates:
   utter_greet:
@@ -17,9 +24,11 @@ templates:
     - 'Bye bye :('
   utter_ask_location:
     - 'In what location?'
-
+  utter_ask_date_time:
+    - 'In what time?'
 actions:
  - utter_greet
  - utter_goodbye
  - utter_ask_location
- - actions.ActionWeather
+ - utter_ask_date_time
+
